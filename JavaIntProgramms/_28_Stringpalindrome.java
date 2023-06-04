@@ -6,6 +6,7 @@ public class _28_Stringpalindrome {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
+// this one needs to check
 
         int low = 0;
         int high = s.length() - 1;

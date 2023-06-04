@@ -10,7 +10,7 @@ public class _23_DuplicateCharInString {
             for(int i=0;i<sentnc.length;i++){
                 count=1;
                 for(int j=i+1;j<sentnc.length;j++){
-                    if(sentnc[j]==sentnc[i] && sentnc[j]!='0'){
+                    if(sentnc[j]==sentnc[i] && sentnc[j]!=' '){
                         count++;
                         sentnc[j]='0';
                     }

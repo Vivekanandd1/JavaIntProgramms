@@ -11,7 +11,7 @@ public class _14_FindingMiddleChaacter {
         System.out.println("the middle number is "+middle(str));
     }
     public static String middle(String str)
-    {//lets assume user inpur is 1234567,so length is 7
+    {//lets assume user inpur is 1234567,so length is 7//546378
         int position;
         int length;
         if (str.length() % 2 == 0)//it wil fail in this case as modulo will be 1
